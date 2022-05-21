@@ -1,0 +1,130 @@
+Microsoft Windows [Version 10.0.19044.1586]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\dquin>cd Documents
+
+C:\Users\dquin\Documents>cd repos
+
+C:\Users\dquin\Documents\repos>mkdir CoreProjectCursoNet
+
+C:\Users\dquin\Documents\repos>CoreProjectCursoNet
+'CoreProjectCursoNet' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\dquin\Documents\repos>cd CoreProjectCursoNet
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>dotnet new sln
+The template "Solution File" was created successfully.
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>dotnet new classlib -o Dominio
+The template "Class Library" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Dominio\Dominio.csproj...
+  Determining projects to restore...
+  Restored C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Dominio\Dominio.csproj (in 251 ms).
+Restore succeeded.
+
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>dotnet new classlib -o Persistencia
+The template "Class Library" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Persistencia\Persistencia.csproj...
+  Determining projects to restore...
+  Restored C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Persistencia\Persistencia.csproj (in 89 ms).
+Restore succeeded.
+
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>dotnet new classlib -o Aplicacion
+The template "Class Library" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\Aplicacion.csproj...
+  Determining projects to restore...
+  Restored C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\Aplicacion.csproj (in 110 ms).
+Restore succeeded.
+
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>dotnet new webapi -o WebAPI
+The template "ASP.NET Core Web API" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\Users\dquin\Documents\repos\CoreProjectCursoNet\WebAPI\WebAPI.csproj...
+  Determining projects to restore...
+  Restored C:\Users\dquin\Documents\repos\CoreProjectCursoNet\WebAPI\WebAPI.csproj (in 4.53 sec).
+Restore succeeded.
+
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>dotnet sln add Dominio/
+Project `Dominio\Dominio.csproj` added to the solution.
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>dotnet sln add Aplicacion/
+Project `Aplicacion\Aplicacion.csproj` added to the solution.
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>dotnet sln add Persistencia/
+Project `Persistencia\Persistencia.csproj` added to the solution.
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>dotnet sln add WebAPI/
+Project `WebAPI\WebAPI.csproj` added to the solution.
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>cd Aplicacion
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion>dir
+ Volume in drive C has no label.
+ Volume Serial Number is ECF6-7C33
+
+ Directory of C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion
+
+04/09/2022  09:19 AM    <DIR>          .
+04/09/2022  09:19 AM    <DIR>          ..
+04/09/2022  09:19 AM               215 Aplicacion.csproj
+04/09/2022  09:19 AM                55 Class1.cs
+04/09/2022  09:19 AM    <DIR>          obj
+               2 File(s)            270 bytes
+               3 Dir(s)  882,658,652,160 bytes free
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion>dotnet add reference ../Dominio/
+Reference `..\Dominio\Dominio.csproj` added to the project.
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion>dotnet add reference ../Persistencia/
+Reference `..\Persistencia\Persistencia.csproj` added to the project.
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion>cd ..
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>cd WebAPI
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\WebAPI>dir
+ Volume in drive C has no label.
+ Volume Serial Number is ECF6-7C33
+
+ Directory of C:\Users\dquin\Documents\repos\CoreProjectCursoNet\WebAPI
+
+04/09/2022  09:20 AM    <DIR>          .
+04/09/2022  09:20 AM    <DIR>          ..
+04/09/2022  09:20 AM               127 appsettings.Development.json
+04/09/2022  09:20 AM               151 appsettings.json
+04/09/2022  09:20 AM    <DIR>          Controllers
+04/09/2022  09:20 AM    <DIR>          obj
+04/09/2022  09:20 AM               557 Program.cs
+04/09/2022  09:20 AM    <DIR>          Properties
+04/09/2022  09:20 AM               255 WeatherForecast.cs
+04/09/2022  09:20 AM               327 WebAPI.csproj
+               5 File(s)          1,417 bytes
+               5 Dir(s)  882,657,587,200 bytes free
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\WebAPI>dotnet add reference ../Aplicacion/
+Reference `..\Aplicacion\Aplicacion.csproj` added to the project.
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\WebAPI>cd..
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>cd Persistencia
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Persistencia>dotnet add reference ../Dominio/
+Reference `..\Dominio\Dominio.csproj` added to the project.
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Persistencia>cd..
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>NotePad .
+
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet>

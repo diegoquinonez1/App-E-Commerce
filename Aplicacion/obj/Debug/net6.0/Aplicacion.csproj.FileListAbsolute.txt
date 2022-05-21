@@ -1,0 +1,17 @@
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\bin\Debug\net6.0\Aplicacion.deps.json
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\bin\Debug\net6.0\Aplicacion.dll
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\bin\Debug\net6.0\Aplicacion.pdb
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\bin\Debug\net6.0\Dominio.dll
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\bin\Debug\net6.0\Persistencia.dll
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\bin\Debug\net6.0\Dominio.pdb
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\bin\Debug\net6.0\Persistencia.pdb
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\Aplicacion.csproj.AssemblyReference.cache
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\Aplicacion.AssemblyInfo.cs
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\Aplicacion.csproj.CopyComplete
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\Aplicacion.dll
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\refint\Aplicacion.dll
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\Aplicacion.pdb
+C:\Users\dquin\Documents\repos\CoreProjectCursoNet\Aplicacion\obj\Debug\net6.0\ref\Aplicacion.dll
